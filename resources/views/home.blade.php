@@ -8,7 +8,7 @@
         
         <div class="row justify-content-center">
             <div class="col-md-4 mb-3">
-                <div class="card bg-dark text-white border-0 shadow-lg float-card">
+                <div class="card bg-dark text-white border-0 shadow-sm float-card">
                     <div class="card-body">
                         <h2 class="display-4">20</h2>
                         <p class="mb-0">years in business</p>
@@ -16,7 +16,7 @@
                 </div>
             </div>
             <div class="col-md-4 mb-3">
-                <div class="card bg-dark text-white border-0 shadow-lg float-card">
+                <div class="card bg-dark text-white border-0 shadow-sm float-card">
                     <div class="card-body">
                         <h2 class="display-4">30k+</h2>
                         <p class="mb-0">websites hosted</p>
@@ -24,7 +24,7 @@
                 </div>
             </div>
             <div class="col-md-4 mb-3">
-                <div class="card bg-dark text-white border-0 shadow-lg float-card">
+                <div class="card bg-dark text-white border-0 shadow-sm float-card">
                     <div class="card-body">
                         <h2 class="display-4">97%</h2>
                         <p class="mb-0">customer satisfaction rate</p>
