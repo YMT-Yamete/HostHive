@@ -1,0 +1,51 @@
+/* Enhanced Section Styling with Gradient Background */
+.enhanced-section-gradient {
+    background: linear-gradient(135deg, #28a745, #006400, #0066cc);
+    background-size: 200% 200%;
+    animation: gradientAnimation 10s ease infinite;
+    overflow: hidden; /* To hide overflowing elements */
+}
+
+/* Gradient Animation */
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Floating Cards */
+.float-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.float-card:hover {
+    transform: translateY(-10px); /* Floating Effect */
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5); /* Enhanced Shadow */
+}
+
+/* Animated Text */
+.animated-heading {
+    animation: fadeInUp 1s ease forwards;
+}
+
+.animated-subtext {
+    animation: fadeInUp 1.5s ease forwards;
+    opacity: 0.9;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
