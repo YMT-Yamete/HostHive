@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('websites', function (Blueprint $table) {
             $table->id();
+            $table->string('website_name');
             $table->foreignId('user_id')->constrained()->onDelete('cascade');
             $table->string('domain_name');
             $table->string('directory_path');

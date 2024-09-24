@@ -50,9 +50,9 @@ class WebsiteController extends Controller
             // Delete the ZIP file after extraction
             unlink($zipPath);
 
-            return redirect()->back()->with('success', 'Website uploaded and extracted successfully!');
+            return redirect()->back()->with(['upload_successful_message' => 'Website uploaded and extracted successfully!']);
         } else {
-            return redirect()->back()->with('error', 'Failed to extract the ZIP file.');
+            return redirect()->back()->with(['upload_not_successful_message' => 'Failed to extract the ZIP file.']);
         }
     }
 }
